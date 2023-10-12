@@ -1,0 +1,29 @@
+{
+  "name": "bare-abort",
+  "version": "1.0.0",
+  "description": "Cause abnormal program termination and generate a crash report",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "binding.c",
+    "binding.js",
+    "CMakeLists.txt",
+    "prebuilds"
+  ],
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holepunchto/bare-abort.git"
+  },
+  "author": "Holepunch",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/holepunchto/bare-abort/issues"
+  },
+  "homepage": "https://github.com/holepunchto/bare-abort#readme",
+  "devDependencies": {
+    "standard": "^17.0.0"
+  }
+}
