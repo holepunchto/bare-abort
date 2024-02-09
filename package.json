@@ -10,9 +10,7 @@
     "CMakeLists.txt",
     "prebuilds"
   ],
-  "addon": {
-    "target": "bare_abort"
-  },
+  "addon": true,
   "scripts": {
     "test": "standard"
   },
