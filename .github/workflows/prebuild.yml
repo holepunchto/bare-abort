@@ -18,9 +18,6 @@ jobs:
         - os: windows-2022
           platform: win32
           arch: x64
-        - os: windows-2022
-          platform: win32
-          arch: arm64
     runs-on: ${{ matrix.os }}
     name: ${{ matrix.platform }}-${{ matrix.arch }}
     steps:
