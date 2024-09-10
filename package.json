@@ -1,6 +1,6 @@
 {
   "name": "bare-abort",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "description": "Cause abnormal program termination and generate a crash report",
   "main": "index.js",
   "files": [
