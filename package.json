@@ -2,9 +2,15 @@
   "name": "bare-abort",
   "version": "2.0.10",
   "description": "Cause abnormal program termination and generate a crash report",
-  "main": "index.js",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  },
   "files": [
     "index.js",
+    "index.d.ts",
     "binding.c",
     "binding.js",
     "CMakeLists.txt",
