@@ -1,3 +1,3 @@
-declare function abort(): void
+declare function abort(): never
 
 export = abort
