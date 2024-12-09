@@ -1,1 +1,3 @@
-export default function abort(): never
+declare function abort(): never
+
+export = abort
