@@ -4,14 +4,14 @@
 #include <stdlib.h>
 
 static js_value_t *
-bare_abort (js_env_t *env, js_callback_info_t *info) {
+bare_abort(js_env_t *env, js_callback_info_t *info) {
   abort();
 
   return NULL;
 }
 
 static js_value_t *
-bare_abort_exports (js_env_t *env, js_value_t *exports) {
+bare_abort_exports(js_env_t *env, js_value_t *exports) {
   int err;
 
 #define V(name, fn) \

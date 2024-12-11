@@ -8,7 +8,7 @@ npm i bare-abort
 
 ## Usage
 
-``` js
+```js
 const abort = require('bare-abort')
 
 abort()

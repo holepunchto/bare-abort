@@ -18,7 +18,7 @@
   ],
   "addon": true,
   "scripts": {
-    "test": "standard"
+    "test": "prettier . --check"
   },
   "repository": {
     "type": "git",
@@ -32,6 +32,7 @@
   "homepage": "https://github.com/holepunchto/bare-abort#readme",
   "devDependencies": {
     "cmake-bare": "^1.1.7",
-    "standard": "^17.0.0"
+    "prettier": "^3.4.2",
+    "prettier-config-standard": "^7.0.0"
   }
 }
