@@ -1,6 +1,6 @@
 {
   "name": "bare-abort",
-  "version": "2.0.11",
+  "version": "2.0.12",
   "description": "Cause abnormal program termination and generate a crash report",
   "exports": {
     ".": {
