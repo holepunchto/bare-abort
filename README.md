@@ -17,3 +17,14 @@ abort()
 ## License
 
 Apache-2.0
+
+<!-- bare-refgen:api start -->
+
+## API
+
+### Functions
+
+#### `abort(): never`
+
+Cause abnormal program termination and generate a crash report.
+<!-- bare-refgen:api end -->
