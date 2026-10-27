@@ -19,7 +19,9 @@
   ],
   "addon": true,
   "scripts": {
-    "test": "prettier . --check"
+    "format": "prettier --write . && lunte --fix",
+    "lint": "prettier --check . && lunte",
+    "test": "brittle-bare --coverage test.js"
   },
   "repository": {
     "type": "git",
@@ -33,6 +35,7 @@
   "homepage": "https://github.com/holepunchto/bare-abort#readme",
   "devDependencies": {
     "cmake-bare": "^1.1.7",
+    "lunte": "^1.8.6",
     "prettier": "^3.4.2",
     "prettier-config-holepunch": "^1.0.0"
   }
